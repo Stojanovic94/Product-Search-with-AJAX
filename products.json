@@ -1,0 +1,9 @@
+[
+    { "name": "Laptop", "price": "800 EUR", "manufacturer": "Dell", "category": "Elektronika" },
+    { "name": "Telefon", "price": "400 EUR", "manufacturer": "Samsung", "category": "Elektronika" },
+    { "name": "Monitor", "price": "200 EUR", "manufacturer": "LG", "category": "Elektronika" },
+    { "name": "Tastatura", "price": "50 EUR", "manufacturer": "Logitech", "category": "Periferije" },
+    { "name": "Miš", "price": "20 EUR", "manufacturer": "Razer", "category": "Periferije" },
+    { "name": "Punjač", "price": "15 EUR", "manufacturer": "Apple", "category": "Dodaci" }
+  ]
+  
