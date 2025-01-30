@@ -1,4 +1,4 @@
-let debounceTimeout; // Globalna promenljiva za čuvanje tajmera
+let debounceTimeout;
 
 // Debounce funkcija koja čeka 500ms pre pozivanja searchProducts
 function debouncedSearch() {
@@ -8,7 +8,6 @@ function debouncedSearch() {
   }, 500); // Pozivanje nakon 500ms
 }
 
-// Funkcija za pretragu proizvoda
 function searchProducts() {
   const query = document.getElementById("search").value.toLowerCase();
   const resultsContainer = document.getElementById("results");
@@ -60,5 +59,4 @@ function handleInput() {
   }
 }
 
-// Povezivanje sa input poljem za pretragu
 document.getElementById("search").addEventListener("keyup", handleInput);
