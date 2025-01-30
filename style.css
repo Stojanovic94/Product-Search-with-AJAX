@@ -1,10 +1,9 @@
-/* Stil za rezultate */
 .result-item {
     display: flex;
-    align-items: center; /* Poravnanje teksta i slika po sredini */
+    align-items: center;
     padding: 10px;
     border-bottom: 1px solid #eee;
-    transition: background-color 0.3s ease; /* Glatka promena boje pozadine */
+    transition: background-color 0.3s ease;
   }
   
   .result-item:last-child {
@@ -12,33 +11,30 @@
   }
   
   .result-item:hover {
-    background-color: #f7f9fc; /* Svetlija pozadina na hover */
+    background-color: #f7f9fc;
   }
   
   .result-item div {
-    flex-grow: 1; /* Omogućava tekstu da zauzme preostali prostor */
-    padding-left: 10px; /* Razmak između teksta i slike */
+    flex-grow: 1;
+    padding-left: 10px;
   }
   
-  /* Slike sa uniformnim dimenzijama */
   .product-image {
-    width: 50px; /* Fiksna širina slike */
-    height: 50px; /* Fiksna visina slike */
-    object-fit: contain; /* Održava proporcije slike */
-    border-radius: 3px; /* Blago zaobljeni uglovi */
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 3px;
     border: 1px solid #ddd;
-    transition: transform 0.3s ease, border-color 0.3s ease; /* Efekti na hover */
+    transition: transform 0.3s ease, border-color 0.3s ease;
   }
   
-  /* Hover efekti za slike */
   .product-image:hover {
-    transform: scale(1.2); /* Povećava sliku na hover */
-    border-color: #999; /* Promena boje okvira na hover */
+    transform: scale(1.2);
+    border-color: #999;
   }
   
-  /* Dodavanje margine oko rezultata */
   #results {
-    margin-top: 20px; /* Razmak između pretrage i rezultata */
+    margin-top: 20px;
   }
   
   #debounce-toggle {
