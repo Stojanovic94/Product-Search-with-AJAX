@@ -6,6 +6,8 @@
     transition: background-color 0.3s ease;
   }
 
+
+
   .result-item:last-child {
     border-bottom: none;
   }
